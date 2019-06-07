@@ -208,11 +208,11 @@ Experimental Setup
 
 \begin_layout Standard
 In order to perform our experiment,the system that is shown in Fig.
- 1 is set up.
- A brushless motor controlled by a Arduino mega was set.Between the motor
- and the Ardunio a ESC and a LiPO battery was placed.Also a 60[cm] wooden
- bar is put on the motor.
- On this bar a a buzzer connected to a 3-V battery are fixed.
+ 1 was set up.
+ A brushless motor controlled by an ESC  dc power supply spins a 1.5-m long
+ aluminum bar.
+ On this bar a counterweight and a buzzer connected to a 9-V battery are
+ fixed.
  The bar is set to spin at a constant angular speed and the sound is recorded.
 \end_layout
 
