@@ -1,6 +1,6 @@
 #include <Servo.h>
 /**
-* The prgram used for running the dopller experiment
+* The program is  used for running the dopller experiment
 *
 */
 Servo ESC;     // create servo object to control the ESC
