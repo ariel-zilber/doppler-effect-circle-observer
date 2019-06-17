@@ -100,7 +100,7 @@
 \series bold
 \size giant
 \color cyan
-Doppler Effect of a sound source moving in a circle with Arduino
+Doppler Effect of a sound source moving in a circle
 \end_layout
 
 \begin_layout Author
@@ -148,20 +148,31 @@ Abstract
 \end_layout
 
 \begin_layout Standard
-Began in 26/25/2019 and ended in 
-\begin_inset Formula $**/**/**$
+Began in 
+\begin_inset Formula $26/05/2019$
 \end_inset
 
-,the experiment intends to explore the Doppler effect for uniform circular
- motion as persived by an observer.This project has the goal of showing the
- effect under diffect scenarios.Therfroe couple of experiments were performed,whi
-ch were proccesed and are presented in this article.Take note this experiment
- was done as part of the course physics laboratory for engineering which
- took place during the semster B in the second year as part of the undergraduate
- program for the computer enginering program in the herbrew university of
- jersualem.The idea for this project was based on the final project of a
- couple of Physics graduates that was done in the faculty of Worcester Polytechn
-ic Institute
+ and ended in 
+\begin_inset Formula $16/06/2019$
+\end_inset
+
+,the experiment intends to illustrate the Doppler shift effect under uniform
+ circular motion .This project has the goal of illustating the the effect
+ under different scenarios.
+ Therefore couple of different experiments were performed,which were processed
+ and are it's findings are presented in this article.Those experiments were
+ performed as part of the course 
+\begin_inset Quotes eld
+\end_inset
+
+physics laboratory for engineering
+\begin_inset Quotes erd
+\end_inset
+
+ which took place during the second semester in the second year in the undergrad
+uate program for the computer engineering in the Hebrew university of Jerusalem.
+ The idea for this project was based on the final project of a couple of
+ Physics graduates that was done in the Worcester Polytechnic Institute
 \begin_inset Formula $^{1}$
 \end_inset
 
@@ -174,151 +185,15 @@ Introduction
 
 \begin_layout Standard
 When our group first heard about an experiment that illustrates the Doppler
- effect by spinnig a buzzer buzzer with a motor,we were intrigued and wondered
+ effect by spinning a buzzer using a motor,we were intrigued and wondered
  if this experiment would work or not.
- In fact, it works becaus when the source moves in a circle,an approaching
- and receding velocity is percived.Therfore placing a microphone next to
- the buzzer easily shows this simple fact.
- No Doppler effect is observed.
- Ourside the mentioned article several qualitative demonstrations and experiment
-s of the Doppler effect have been published.However' only a very few other
- quantitative experiments can be found in the literature.Afting reading the
- presented article which quantifies the Doppler effect, we thought it would
- be a good physics exercise to calculate and measure the frequency variations
- when the microphone observs the sound emitted from a buzzer while both
- stationary and while spinning with a buzzer.
-\end_layout
-
-\begin_layout Section
-Experimental Setup
-\end_layout
-
-\begin_layout Standard
-In order to perform our experiment,the system that is shown in Fig.
- 1 is set up.
- A Brushless motor controlled with an a Arduino Mega was set.Brushles motor
- is a type of an electric motor which main advantages that it is can achieve
- very high speed and is coniseded to very quit.This feature comes in handy
- we want to minimize any effects that can cause bias erros in our experiment.As
- the Brushless motor cannot be directly controlled with an Arduino an electonic
- speed controlled(ESC) was attached to the motor from one end and both an
- Arduino and a LiPO battry on the other.The LiPO was placed as the motor
- requires more voltage then the arduino can provide.
- Also a wooden bar was placed on 
-\color white
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-\color inherit
-top top of the motor.On the edge of the bar a buzzer and a battry were placed.The
- bar was set to spin at a constant angular speed and the sound it emitted
- was recoreded.The sound was captured as .wav file using a microphone inside
- a smartphone.The .wav file is then analyzed in a spectrogram software program.The
- software used in our study is available on the web 
-\begin_inset Formula $^{2}$
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-.It displays the audio signal as a frequency-versus-time plot.Also, a continuous
- readout of time (ms), frequency (Hz), and signal level (dB) at the position
- of the mouse pointer (cursor) allows an easy sampling of the frequencies
- with maximum signal level.The recorded frequency of the buzzer increases
- to its maximum value when it approaches the microphone (maximum approaching
- speed).
- And it is abruptly decreased to its minimum just after the buzzer passes
- over the microphone (maximum receding speed).
- When the buzzer is located opposite to the microphone, there is no movement
- towards or away from it.
- Therefore, the recorded frequency (
-\begin_inset Formula $f$
-\end_inset
-
- ) is the same as that produced by the buzzer at rest (
-\begin_inset Formula $f_{0}$
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "c"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "45text%"
-special "none"
-height "1pt"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename C:/Users/ariel_university/Google Drive/university/year_2/semester B/lab_project/doppler-effect-circle-observer-master/article/images/12448.png
-	scale 75
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-The setup for the experiment
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Theory
+ In fact, it works because when the source moves in a circle,an approaching
+ and receding velocity is perceived by an observer.Therfore when placing
+ a microphone next to the buzzer the doppler shift is not percieved.
 \end_layout
 
 \begin_layout Subsection
-Calculation for the relationship between the buzzer
-\begin_inset Newline newline
-\end_inset
-
-
-\color white
-xxx
-\color inherit
-frequnecy and it's velocity
+The relationship between buzzer frequency and velocity
 \end_layout
 
 \begin_layout Standard
@@ -439,7 +314,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename C:/Users/ariel_university/Google Drive/university/year_2/semester B/lab_project/doppler-effect-circle-observer-master/article/images/23881.jpg
-	scale 11
+	scale 20
 
 \end_inset
 
@@ -447,7 +322,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
+Schematic to calculate the approaching and receding speeds with geometry
 \end_layout
 
 \end_inset
@@ -600,10 +475,7 @@ Using direct substitution we get:
 \end_layout
 
 \begin_layout Standard
-By Substituting this equation to the equation
-\end_layout
-
-\begin_layout Standard
+By Substituting this equation to 
 \begin_inset Formula $f=f_{0}(\frac{v_{s}}{v_{s}+V_{D}})$
 \end_inset
 
@@ -625,7 +497,7 @@ By Substituting this equation to the equation
 \end_layout
 
 \begin_layout Subsection
-Calculation for measurement error
+Measurement error
 \end_layout
 
 \begin_layout Standard
@@ -633,35 +505,167 @@ err
 \end_layout
 
 \begin_layout Section
-Method
+Experimental System
 \end_layout
 
 \begin_layout Standard
-we did stuff
+In order to perform our experiment,the system that is shown in Fig.
+ 1 was set up.
+ A Brushless motor 
+\begin_inset Formula $(a)$
+\end_inset
+
+ controlled with an a Arduino Mega 
+\begin_inset Formula $(b)$
+\end_inset
+
+ was set.
+ Brushles motor is a type of an electric motor that is considered to be
+ quiet.This feature comes in handy as we wanted to minimize the effect of
+ any cause that can increase the bias erros in our experiment.
+ Also as the Brushless motor cannot be directly controlled with an Arduino
+ ,an electonic speed controlled(ESC) 
+\begin_inset Formula $(c)$
+\end_inset
+
+ was attached to the motor from one end and both an Arduino and a LiPO 
+\begin_inset Formula $(d)$
+\end_inset
+
+ battry on the other.
+\end_layout
+
+\begin_layout Standard
+The LiPO was placed as the voltage requierments for the motor are far greater
+ then what the Arduino is capable of providing.
+ Besides,A wooden bar 
+\begin_inset Formula $(e)$
+\end_inset
+
+ was placed on the top of the motor.
+ On the edge of this bar a buzzer
+\begin_inset Formula $(f)$
+\end_inset
+
+ and a battry 
+\begin_inset Formula $(g)$
+\end_inset
+
+ were placed.
+ The bar was set to spin at a constant angular speed and the sound it emitted
+ was recoreded.
+ The sound was captured as .wav file using a microphone
+\begin_inset Formula $(i)$
+\end_inset
+
+.
+ The .wav file was then analyzed in a spectrogram software program .The software
+ used in our experiment is available on the web
+\begin_inset Formula $^{2}$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+.It displayed the audio signal as a frequency-versus-time plot.
+ Also, as the program allows displaying, a continuous readout of time (ms),
+ frequency (Hz), and signal level (dB) at the position of the mouse pointer
+ (cursor) it because relatively simple to sample those frequencies.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1pt"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/ariel_university/Google Drive/university/year_2/semester B/lab_project/doppler-effect-circle-observer-master/article/images/12448.png
+	scale 75
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The setup for the experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
-Results
+Results and Discussion
 \end_layout
 
 \begin_layout Standard
-we fot stuff
+According to the equation for doppler shift the graph should be completly
+ *.However,the graph is actually*.
 \end_layout
 
 \begin_layout Section
-Discussion
+Summary
 \end_layout
 
 \begin_layout Standard
-we them becuasuse stuff
-\end_layout
-
-\begin_layout Section
-Conclusion
+The goal of this lab was to experimentally measure a bozzer rotating in
+ differnet speeds and oberser the shift which stemms from the doppler shift.
 \end_layout
 
 \begin_layout Standard
-sucks
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There seems to be a good agreement between the lab data and the theory.The
+ ***.Tis is probably due to **.
 \end_layout
 
 \begin_layout Section
@@ -680,19 +684,19 @@ During the course of the semester, we had a lot of problems
 \end_layout
 
 \begin_layout Standard
-to solve in a short period of time.Thankfully, we had
+to solve in relatively short period of time.Thankfully, we had
 \end_layout
 
 \begin_layout Standard
-plenty of help from our lab supervisior Amit Kessel for
+plenty of help from our lab supervisor Amit Kessel who helped us
 \end_layout
 
 \begin_layout Standard
-agreeing to help us set the equipement.We were given
+setting up the equipment.We were given
 \end_layout
 
 \begin_layout Standard
-complete control on the design and manufracture of
+complete control on the design and manufacture of
 \end_layout
 
 \begin_layout Standard
@@ -704,19 +708,20 @@ bought was proven to be too powerfull and the
 \end_layout
 
 \begin_layout Standard
-inital construction could not stand the force
+inital wooden construction could not stand the force
 \end_layout
 
 \begin_layout Standard
-which it expeld and it fell apart.Amit helped us
+which the rotaing arm expelled and the entire construction fell apart.Amit
+ helped us
 \end_layout
 
 \begin_layout Standard
-create a new design and contanct the workshop in
+create a new sturdier design and contact the workshop in
 \end_layout
 
 \begin_layout Standard
-our university which build it for us.
+our university which built it for us.
 \end_layout
 
 \begin_layout Section
@@ -768,10 +773,6 @@ observer/tree/master/arduino/master/arduino/
 
 \begin_layout Standard
 doppler_effect_circular_motion
-\end_layout
-
-\begin_layout Standard
-[3]
 \end_layout
 
 \end_body
